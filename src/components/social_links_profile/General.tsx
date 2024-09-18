@@ -1,5 +1,5 @@
 import "./main.scss"
-import config from "../../config.json";
+import config from "../../../config.json";
 
 function General() {
     return (
