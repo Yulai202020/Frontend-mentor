@@ -1,11 +1,12 @@
 import "./main.scss"
+import config from "../../config.json";
 
 function General() {
     return (
         <>
         <div className="container">
             <div className="form">
-                <img className="profile-image" src="/profile.jpeg"></img>
+                <img className="profile-image" src={`${config.basepath}/profile.jpeg`}></img>
                 <h3 className="name">Jessica Randall</h3>
                 <p className="live-at">London, United Kindom</p>
                 <p className="about">"Front-end developer and avid reader."</p>
