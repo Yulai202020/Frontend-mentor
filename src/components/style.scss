@@ -1,0 +1,69 @@
+@use "./colors.scss" as *;
+
+* {
+    font-family: 'Inter', sans-serif; // Use the font from Google Fonts
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    background-color: $Grey_900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: $Grey_800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    margin: 2px;
+    color: $White;
+    font-weight: bold;
+}
+
+.live-at {
+    margin: 2px;
+    color: $Green;
+    font-weight: bold;
+}
+
+.about {
+    margin: 15px;
+    color: $White;
+}
+
+.link-button {
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    background-color: $Grey_700;
+    color: $White;
+    border-radius: 5px;
+    width: 100%;
+    
+    &:hover {
+        // background-color: $Green;
+        // cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+}
+
+.profile-image {
+    width: 100px;
+    border-radius: 50%;
+}
