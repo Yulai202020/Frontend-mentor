@@ -6,8 +6,8 @@ function SocialLinksProfile() {
         <>
         <div className="container">
             <div className="form">
-                <img className="profile-image" src={`${config.basepath}/profile.jpeg`}></img>
-                <h3 className="name">Jessica Randall</h3>
+                <img className="profile-image" src={`${config.basepath}/profile.jpeg`} alt="Profile picture"/>
+                <h1 className="name">Jessica Randall</h1>
                 <p className="live-at">London, United Kindom</p>
                 <p className="about">"Front-end developer and avid reader."</p>
                 {/* buttons */}
