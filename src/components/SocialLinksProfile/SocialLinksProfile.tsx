@@ -1,7 +1,7 @@
 import "./main.scss"
 import config from "../../../config.json";
 
-function General() {
+function SocialLinksProfile() {
     return (
         <>
         <div className="container">
@@ -22,4 +22,4 @@ function General() {
     );
 }
 
-export default General;
+export default SocialLinksProfile;

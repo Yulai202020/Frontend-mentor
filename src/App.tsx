@@ -1,11 +1,11 @@
-import General from './components/social_links_profile/General'
+import SocialLinksProfile from './components/SocialLinksProfile/SocialLinksProfile'
 import { HashRouter as Router, Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/social_links_profile" element={<General />}/>
+        <Route path="/SocialLinksProfile" element={<SocialLinksProfile />}/>
       </Routes>
     </Router>
   );
