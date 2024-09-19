@@ -1,23 +1,23 @@
-import "./main.scss"
+import style from "./main.module.scss";
 import config from "../../../config.json";
 
 function SocialLinksProfile() {
     return (
         <>
-        <div className="container">
-            <div className="form">
-                <img className="profile-image" src={`${config.basepath}/profile.jpeg`} alt="Profile picture"/>
-                <h1 className="name">Jessica Randall</h1>
-                <p className="live-at">London, United Kindom</p>
-                <p className="about">"Front-end developer and avid reader."</p>
-                {/* buttons */}
-                <button className="link-button">Github</button>
-                <button className="link-button">Frontend Mentor</button>
-                <button className="link-button">LinkedIn</button>
-                <button className="link-button">Twitter</button>
-                <button className="link-button">Instagram</button>
+            <div className={style.container}>
+                <div className={style.form}>
+                    <img className={style.profileImage} src={`${config.basepath}/profile.jpeg`} alt="Profile picture" />
+                    <h1 className={style.name}>Jessica Randall</h1>
+                    <p className={style.liveAt}>London, United Kingdom</p>
+                    <p className={style.about}>"Front-end developer and avid reader."</p>
+                    {/* buttons */}
+                    <button className={style.linkButton}>Github</button>
+                    <button className={style.linkButton}>Frontend Mentor</button>
+                    <button className={style.linkButton}>LinkedIn</button>
+                    <button className={style.linkButton}>Twitter</button>
+                    <button className={style.linkButton}>Instagram</button>
+                </div>
             </div>
-        </div>
         </>
     );
 }

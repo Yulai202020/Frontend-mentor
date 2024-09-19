@@ -1,0 +1,65 @@
+@use "./colors.scss" as *;
+
+.container {
+    position: relative; /* Position relative for absolute positioning inside */
+    background-color: $Yellow;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow {
+    position: relative;
+    background-color: $Gray_950;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+
+.form {
+    position: relative; /* Ensure the form is above the shadow */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.about {
+    color: $Gray_500;
+
+    max-width: 350px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.type {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $Yellow;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.profile_image {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.banner {
+    border-radius: 5px;
+    width: 400px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+
+    &>* {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
