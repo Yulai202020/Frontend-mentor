@@ -1,7 +1,7 @@
 @use "./colors.scss" as *;
 
 * {
-    font-family: 'Inter', sans-serif; // Use the font from Google Fonts
+    font-family: 'Overpass', sans-serif;
 }
 
 html, body {
@@ -46,7 +46,7 @@ html, body {
 }
 
 .link-button {
-    font-weight: bold;
+    font-weight: 700;
     border: none;
     padding: 15px;
     margin: 5px;

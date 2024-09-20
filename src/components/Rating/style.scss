@@ -1,0 +1,70 @@
+@use "./colors.scss" as *;
+
+
+* {
+    font-family: 'Inter', sans-serif; // Use the font from Google Fonts
+}
+
+.container {
+    background-color: $Very_Dark_Blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: $Dark_Blue;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    // align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.title {
+    color: white;
+}
+
+.about {
+    max-width: 300px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: $Light_Grey;
+}
+
+.rating_buttons {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    color: $Light_Grey;
+    border: none;
+    border-radius: 50%;
+    background-color: $Very_Dark_Blue;
+}
+
+.submit_button { // Fixed the typo in class name
+    padding: 10px;
+    width: 96%;
+    border: none;
+    background-color: $Orange;
+    border-radius: 10px;
+    color: $Dark_Blue;
+}
+
+.img_container {
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.img_star {
+    width: 20px;
+    height: auto; /* Maintain aspect ratio */
+}
