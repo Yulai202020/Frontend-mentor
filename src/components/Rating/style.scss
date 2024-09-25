@@ -18,7 +18,6 @@
     border-radius: 10px;
     display: flex;
     padding: 20px;
-    // align-items: center;
     flex-direction: column;
     justify-content: center;
     position: relative;
@@ -43,6 +42,16 @@
     border: none;
     border-radius: 50%;
     background-color: $Very_Dark_Blue;
+
+    &.selected {
+        color: black;
+        background-color: white;
+    }
+
+    &:hover {
+        background-color: $Orange;
+        color: black;
+    }
 }
 
 .submit_button { // Fixed the typo in class name
@@ -52,6 +61,12 @@
     background-color: $Orange;
     border-radius: 10px;
     color: $Dark_Blue;
+    font-weight: bold;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
 }
 
 .img_container {
