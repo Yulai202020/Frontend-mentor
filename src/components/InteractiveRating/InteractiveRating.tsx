@@ -1,5 +1,4 @@
 import styles from "./main.module.scss";
-import config from "../../../config.json";
 import { useState } from "react";
 
 function InteractiveRating() {
@@ -22,7 +21,7 @@ function InteractiveRating() {
                 {!formComplete ? (
                     <>
                         <div className={styles.img_container}>
-                            <img alt="star" className={styles.img_star} src={`${config.basepath}/star.svg`} />
+                            <img alt="star" className={styles.img_star} src="/star.svg" />
                         </div>
         
                         <h1 className={styles.title}>How did we do?</h1>
@@ -50,7 +49,7 @@ function InteractiveRating() {
                     </>
                 ) : (
                     <div className={styles.thank_container}>
-                        <img alt="Thank you" src={`${config.basepath}/thank-you.svg`} />
+                        <img alt="Thank you" src="/thank-you.svg" />
                         <p className={styles.rating}>You selected {rating} out of 5</p>
                         <h1 className={styles.thanks}>Thank you!</h1>
                         <p className={styles.other_text}>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>

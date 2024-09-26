@@ -1,12 +1,11 @@
 import style from "./main.module.scss";
-import config from "../../../config.json";
 
 function SocialLinksProfile() {
     return (
         <>
             <div className={style.container}>
                 <div className={style.form}>
-                    <img className={style.profileImage} src={`${config.basepath}/profile.jpeg`} alt="Profile picture" />
+                    <img className={style.profileImage} src="/profile.jpeg" alt="Profile picture" />
                     <h1 className={style.name}>Jessica Randall</h1>
                     <p className={style.liveAt}>London, United Kingdom</p>
                     <p className={style.about}>"Front-end developer and avid reader."</p>

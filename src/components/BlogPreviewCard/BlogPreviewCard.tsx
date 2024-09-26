@@ -1,5 +1,4 @@
 import style from "./main.module.scss";
-import config from "../../../config.json";
 
 function BlogPreviewCard() {
     return (
@@ -7,7 +6,7 @@ function BlogPreviewCard() {
         <div className={style.container}>
             <div className={style.shadow}>
                 <div className={style.form}>
-                    <img className={style.banner} src={`${config.basepath}/banner.svg`} alt="banner"/>
+                    <img className={style.banner} src="/banner.svg" alt="banner"/>
 
                     <p className={style.type}>Learning</p>
 
@@ -17,7 +16,7 @@ function BlogPreviewCard() {
 
                     <p className={style.about}>These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
-                    <p className={style.centered}><img className={style.profile_image} src={`${config.basepath}/image-avatar.webp`} alt="avatar"/> Greg Hooper</p>
+                    <p className={style.centered}><img className={style.profile_image} src="/image-avatar.webp" alt="avatar"/> Greg Hooper</p>
                 </div>
             </div>
         </div>
