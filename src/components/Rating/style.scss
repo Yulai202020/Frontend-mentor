@@ -1,8 +1,7 @@
 @use "./colors.scss" as *;
 
-
 * {
-    font-family: 'Inter', sans-serif; // Use the font from Google Fonts
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -15,7 +14,7 @@
 
 .form {
     background-color: $Dark_Blue;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -28,7 +27,7 @@
 }
 
 .about {
-    max-width: 300px;
+    max-width: 350px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     color: $Light_Grey;
@@ -59,7 +58,7 @@
     width: 96%;
     border: none;
     background-color: $Orange;
-    border-radius: 10px;
+    border-radius: 20px;
     color: $Dark_Blue;
     font-weight: bold;
 
@@ -72,6 +71,7 @@
 .img_container {
     width: 25px;
     height: 25px;
+    padding: 7px;
     background-color: grey;
     border-radius: 50%;
     display: flex; 
@@ -82,4 +82,31 @@
 .img_star {
     width: 20px;
     height: auto; /* Maintain aspect ratio */
+}
+
+.thank_contianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.rating {
+    background-color: grey;
+    color: $Orange;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.other_text {
+    color: $Light_Grey;
+    max-width: 350px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.thanks {
+    color: $White;
 }
