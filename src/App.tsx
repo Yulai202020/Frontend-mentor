@@ -6,6 +6,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import SocialLinksProfile from './components/SocialLinksProfile/SocialLinksProfile'
 import BlogPreviewCard from './components/BlogPreviewCard/BlogPreviewCard';
 import InteractiveRating from './components/InteractiveRating/InteractiveRating';
+import QRCode from './components/QRCode/QRCode';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/SocialLinksProfile" element={<SocialLinksProfile />}/>
         <Route path="/BlogPreviewCard" element={<BlogPreviewCard />}/>
         <Route path="/Rating" element={<InteractiveRating />}/>
+        <Route path="/QRCode" element={<QRCode />}/>
 
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
