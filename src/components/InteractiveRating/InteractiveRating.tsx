@@ -2,7 +2,7 @@ import styles from "./main.module.scss";
 import config from "../../../config.json";
 import { useState } from "react";
 
-function Rating() {
+function InteractiveRating() {
     const [rating, SetRating] = useState(0);
     const [form_compilete, Setform_compilete] = useState(false);
 
@@ -59,4 +59,4 @@ function Rating() {
     );
 }
 
-export default Rating;
+export default InteractiveRating;
