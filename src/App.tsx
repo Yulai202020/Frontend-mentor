@@ -8,10 +8,16 @@ import BlogPreviewCard from './components/BlogPreviewCard/BlogPreviewCard';
 import InteractiveRating from './components/InteractiveRating/InteractiveRating';
 import QRCode from './components/QRCode/QRCode';
 
+import Favicon from 'react-favicon';
+
 import "./std.scss";
 
 function App() {
   return (
+    <>
+    {/* change favicon */}
+    <Favicon url="/favicon.svg" />
+
     <Router>
       <Routes>
         <Route path="/" element={<Home />}/>
@@ -24,6 +30,7 @@ function App() {
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </Router>
+    </>
   );
 }
 
