@@ -8,6 +8,8 @@ import BlogPreviewCard from './components/BlogPreviewCard/BlogPreviewCard';
 import InteractiveRating from './components/InteractiveRating/InteractiveRating';
 import QRCode from './components/QRCode/QRCode';
 
+import "./std.scss";
+
 function App() {
   return (
     <Router>

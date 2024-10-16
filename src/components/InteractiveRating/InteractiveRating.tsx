@@ -50,8 +50,8 @@ function InteractiveRating() {
                 ) : (
                     <div className={styles.thank_container}>
                         <img alt="Thank you" src="/thank-you.svg" />
-                        <p className={styles.rating}>You selected {rating} out of 5</p>
-                        <h1 className={styles.thanks}>Thank you!</h1>
+                        <p className={styles.rating}>You selected {rating} out of 5</p> {/* center it */}
+                        <h1 className={styles.thanks}>Thank you!</h1> {/* and this */}
                         <p className={styles.other_text}>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
                     </div>
                 )}

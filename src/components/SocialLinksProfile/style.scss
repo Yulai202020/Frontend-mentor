@@ -4,11 +4,6 @@
     font-family: 'Overpass', sans-serif;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 .container {
     height: 100vh;
     margin: 0;
@@ -34,7 +29,7 @@ html, body {
     font-weight: bold;
 }
 
-.live-at {
+.liveAt {
     margin: 2px;
     color: $Green;
     font-weight: bold;
@@ -45,7 +40,7 @@ html, body {
     color: $White;
 }
 
-.link-button {
+.linkButton {
     font-weight: 700;
     border: none;
     padding: 15px;
@@ -56,14 +51,12 @@ html, body {
     width: 100%;
     
     &:hover {
-        // background-color: $Green;
-        // cursor: pointer;
         transform: scale(1.05);
         transition: 0.3s;
     }
 }
 
-.profile-image {
+.profileImage {
     width: 100px;
     border-radius: 50%;
 }

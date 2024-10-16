@@ -52,9 +52,13 @@
         background-color: $Orange;
         color: black;
     }
+
+    &:focus {
+        outline: 2px solid $Orange; // Added focus style
+    }
 }
 
-.submit_button { // Fixed the typo in class name
+.submit_button {
     padding: 10px;
     width: 96%;
     border: none;
@@ -66,6 +70,10 @@
     &:hover {
         background-color: white;
         color: black;
+    }
+
+    &:focus {
+        outline: 2px solid $Orange; // Added focus style
     }
 }
 
@@ -85,11 +93,12 @@
     height: auto; /* Maintain aspect ratio */
 }
 
-.thank_contianer {
+.thank_container { // Corrected the typo here
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center; // Center text
     position: relative;
 }
 
@@ -105,7 +114,6 @@
     max-width: 350px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    text-align: center;
 }
 
 .thanks {
