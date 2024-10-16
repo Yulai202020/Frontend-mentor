@@ -1,0 +1,10 @@
+.link {
+    display: block;  // Makes each link a block element
+    margin-bottom: 10px;  // Adjust spacing as needed
+    color: blue;  // Example link color
+    text-decoration: none;  // Remove underline if desired
+
+    &:hover {
+        text-decoration: underline;  // Example hover effect
+    }
+}
