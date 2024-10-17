@@ -38,10 +38,11 @@
     margin-right: 20px;
     width: 50px;
     height: 50px;
-    color: $Light_Grey;
+    color: $White;
     border: none;
     border-radius: 50%;
-    background-color: $Very_Dark_Blue;
+    background-color: $Not_Very_Dark_Blue;
+    font-weight: bold;
 
     &.selected {
         color: black;
@@ -81,7 +82,7 @@
     width: 25px;
     height: 25px;
     padding: 7px;
-    background-color: grey;
+    background-color: $Not_Very_Dark_Blue;
     border-radius: 50%;
     display: flex; 
     justify-content: center; /* Center horizontally */
@@ -89,7 +90,7 @@
 }
 
 .img_star {
-    width: 20px;
+    width: 15px;
     height: auto; /* Maintain aspect ratio */
 }
 
