@@ -7,6 +7,7 @@ import SocialLinksProfile from './components/SocialLinksProfile/SocialLinksProfi
 import BlogPreviewCard from './components/BlogPreviewCard/BlogPreviewCard';
 import InteractiveRating from './components/InteractiveRating/InteractiveRating';
 import QRCode from './components/QRCode/QRCode';
+import ContactForm from './components/ContactForm/ContactForm';
 
 import Favicon from 'react-favicon';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/BlogPreviewCard" element={<BlogPreviewCard />}/>
         <Route path="/Rating" element={<InteractiveRating />}/>
         <Route path="/QRCode" element={<QRCode />}/>
+        <Route path="/ContactForm" element={<ContactForm />}/>
 
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
