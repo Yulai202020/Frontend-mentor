@@ -27,13 +27,13 @@
 
 $distance: 20px;
 
-.flex-grid {
+.flex_grid {
     display: flex;
     flex-wrap: wrap;
     gap: $distance;
 }
 
-.flex-item {
+.flex_item {
     width: calc(50% - $distance/2);
 }
 
@@ -45,7 +45,7 @@ $distance: 20px;
     font-size: 12px;
 }
 
-.green-asterisk {
+.green_asterisk {
     color: $Green_600;
 }
 
@@ -62,7 +62,7 @@ input {
     overflow-y: auto;
 }
 
-.submit-button {
+.submit_button {
     width: 100%;
     background-color: $Green_600;
     border: none;

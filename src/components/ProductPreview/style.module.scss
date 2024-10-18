@@ -1,0 +1,39 @@
+@use "./color.scss" as *;
+
+.container {
+    background-color: $Cream;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image_container {
+    flex: 1;
+}
+
+.image_container img {
+    height: 300px;
+}
+
+.text_container {
+    display: flex;
+    padding: 16px;
+    flex: 2;
+    flex-direction: column;
+}
+
+.sumbit_button {
+    background-color: $Dark_cyan;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cost>* {
+    margin: 10px;
+}
