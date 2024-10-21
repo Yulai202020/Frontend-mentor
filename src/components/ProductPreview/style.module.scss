@@ -4,36 +4,52 @@
     background-color: $Cream;
     justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.sumbit_button {
+    color: white;
+    background-color: $Dark_cyan;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cost {
+    display: flex;
+    &>* {
+        margin: 10px;
+    }
+}
+
+.old_cost {
+    display: flex;
+    align-items: center;
+}
+
+.green_text {
+    color: $Dark_cyan;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .card {
     display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
     background-color: white;
-    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.image_container {
-    flex: 1;
+.cardImage {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.image_container img {
-    height: 300px;
-}
-
-.text_container {
-    display: flex;
+.cardContent {
+    width: 250px;
     padding: 16px;
-    flex: 2;
-    flex-direction: column;
-}
-
-.sumbit_button {
-    background-color: $Dark_cyan;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-}
-
-.cost>* {
-    margin: 10px;
 }

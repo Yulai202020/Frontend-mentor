@@ -11,6 +11,8 @@ function Home() {
             <a className={style.link} href="/BlogPreviewCard">Blog Preview Card </a>
             <a className={style.link} href="/Rating">Rating</a>
             <a className={style.link} href="/QRCode">QR code</a>
+            <a className={style.link} href="/ProductPreview">ProductPreview</a>
+            <a className={style.link} href="/ContactForm">ContactForm</a>
         </div>
     );
 }
