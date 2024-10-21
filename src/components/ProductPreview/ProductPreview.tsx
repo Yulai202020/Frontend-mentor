@@ -3,7 +3,6 @@ import style from "./style.module.scss";
 function ProductPreview() {
     return (
         <div className={style.container}>
-
             <div className={style.card}>
                 <img src="/image-product-desktop.jpg" alt="image-product" className={style.cardImage} />
                 <div className={style.cardContent}>
@@ -16,7 +15,7 @@ function ProductPreview() {
                             <s>$169.99</s>
                         </div>
                     </div>
-                    <button className={style.sumbit_button}><img src="/icon-cart.svg" /> Add to cart</button>
+                    <button className={style.sumbit_button}><img className={style.cart} src="/icon-cart.svg" /> Add to cart</button>
                 </div>
             </div>
         </div>

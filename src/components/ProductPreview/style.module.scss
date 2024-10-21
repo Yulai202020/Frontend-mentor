@@ -9,6 +9,7 @@
 }
 
 .sumbit_button {
+    display: flex;
     color: white;
     background-color: $Dark_cyan;
     padding: 10px;
@@ -29,6 +30,11 @@
     align-items: center;
 }
 
+.cart {
+    display: flex;
+    align-items: center;
+}
+
 .green_text {
     color: $Dark_cyan;
     font-size: 40px;
@@ -41,7 +47,6 @@
     border-radius: 8px;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .cardImage {
